@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SocialParty">
         <activity
+            android:name=".Activities.Auth.SignUpActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.Auth.SignInActivity"
             android:exported="false" />
         <activity
